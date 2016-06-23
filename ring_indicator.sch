@@ -15526,7 +15526,7 @@ Metric Code Size 5664</description>
 <part name="D4" library="diode" deviceset="1N4004" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/10" value="2k2"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/10" value="100k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/10" value="50k"/>
 <part name="OK1" library="optocoupler" deviceset="4N*?M" device="" technology="27"/>
 <part name="Q2" library="transistor-fet" deviceset="BUZ11" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
@@ -15544,9 +15544,9 @@ Metric Code Size 5664</description>
 <instance part="LICHT2" gate="G$1" x="256.54" y="60.96" rot="MR180"/>
 <instance part="RUNDUMLEUCHTE" gate="G$1" x="220.98" y="33.02" rot="MR180"/>
 <instance part="SUPPLY1" gate="GND" x="246.38" y="109.22" rot="MR0"/>
-<instance part="P+1" gate="VCC" x="246.38" y="121.92" rot="MR0"/>
-<instance part="P+2" gate="VCC" x="246.38" y="93.98" rot="MR0"/>
-<instance part="P+3" gate="VCC" x="246.38" y="66.04" rot="MR0"/>
+<instance part="P+1" gate="VCC" x="246.38" y="124.46" rot="MR0"/>
+<instance part="P+2" gate="VCC" x="246.38" y="96.52" rot="MR0"/>
+<instance part="P+3" gate="VCC" x="246.38" y="68.58" rot="MR0"/>
 <instance part="SUPPLY2" gate="GND" x="246.38" y="81.28" rot="MR0"/>
 <instance part="SUPPLY3" gate="GND" x="246.38" y="53.34" rot="MR0"/>
 <instance part="INPUT_12V" gate="G$1" x="33.02" y="119.38" rot="R180"/>
@@ -15611,18 +15611,18 @@ Metric Code Size 5664</description>
 <net name="VCC" class="0">
 <segment>
 <pinref part="FRITZBOX" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="116.84" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="246.38" y1="121.92" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LICHT1" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="88.9" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="246.38" y1="93.98" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LICHT2" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="60.96" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="246.38" y1="66.04" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="35.56" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
