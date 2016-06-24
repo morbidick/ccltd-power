@@ -15526,7 +15526,7 @@ Metric Code Size 5664</description>
 <part name="D4" library="diode" deviceset="1N4004" device=""/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/10" value="2k2"/>
 <part name="LED1" library="led" deviceset="LED" device="5MM"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/10" value="50k"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/10" value="100k"/>
 <part name="OK1" library="optocoupler" deviceset="4N*?M" device="" technology="27"/>
 <part name="Q2" library="transistor-fet" deviceset="BUZ11" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
